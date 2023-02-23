@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: #0B1A46;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tracker-top{
+    width:70%;
+    padding:10px;
+    border-radius: 5px;
+    color:#0B1A46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.tracker-top input{
+    width:100%;
+    padding:10px;
+    border:1px solid gray;
+    outline:none;
+}
+
+.tracker-top button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border:none;
+    outline: none;
+    color: #fff;
+    background-color: #0B1A46;
+    cursor:pointer;
+}
+
+.tracker-buttons{
+    width: 70%;
+    margin-top: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        color: #0B1A46;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+}
+
+.show-tracker-buttons{
+    display: block;
+}
+
+.btn-wrapper{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-wrapper button{
+    width: 24%;
+        padding: 10px;
+        margin-top: 10px;
+        border: none;
+        outline: none;
+        color: #fff;
+        background-color: #0B1A46;
+        cursor: pointer;
+}
+
+.time-elapsed{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.time-elapsed p:nth-child(2){
+    margin-left: 10px;
+}
+
+.results-container{
+    width: 70%;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        color: #0B1A46;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+}
+
+.show-results-container{
+    display: block;
+}
+
+.create-btn:disabled{
+    cursor:not-allowed;
+    background-color: #fff;
+}
+
+.reset-btn{
+    cursor: pointer;
+    width:200px;
+    padding:10px;
+    border:none;
+    color:white;
+    background-color: tomato;
+}
